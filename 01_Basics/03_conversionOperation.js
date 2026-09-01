@@ -21,6 +21,38 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 let checkNumber = 33
 
 let numToString = String(checkNumber)
-console.log(numToString);
+//console.log(numToString);
+//console.log(typeof numToString)
 
-console.log(typeof numToString)
+// ------------ Operation ---------------- //
+
+let num = 3
+let negNum = -num
+let posNum = -negNum
+//console.log(negNum);
+//console.log(posNum);
+
+let str1 = "Aditya"
+let str2 = " Mishra"
+
+//console.log(str1 + str2);
+
+//console.log(2+2+"2") //42
+//console.log("2"+2+2) // 222
+
+let x = 3
+const y=++x
+
+let c = 3
+const z = x++
+
+console.log("x: "+x)
+console.log("y=++x --> "+y);
+
+console.log("c: "+c)
+console.log("z=x++ -->"+z);
+
+
+
+
+
