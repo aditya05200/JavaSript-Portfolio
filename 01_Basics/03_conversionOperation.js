@@ -36,8 +36,9 @@ let str1 = "Aditya"
 let str2 = " Mishra"
 
 //console.log(str1 + str2);
-
+// JavaScript evaluates expressions from left to right. Different sequences can produce different results:
 //console.log(2+2+"2") //42
+// When adding a number and a string, JavaScript will treat the number as a string.
 //console.log("2"+2+2) // 222
 
 let x = 3
