@@ -26,3 +26,5 @@ user.greeting = function(){
 }
 console.log(user.greeting());
 
+
+
