@@ -11,8 +11,18 @@ const user = {
     email: 'aditya@example.com',
     [mySymbol]: "mykey1"
 }
-console.log(user.name);
-console.log(user["name"]);
-console.log(typeof user[mySymbol]); 
-user.email = "newemail.com";
-console.log(user.email);
+// console.log(user.name);
+// console.log(user["name"]);
+// console.log(typeof user[mySymbol]); 
+//console.log(user)
+// user.email = "newemail.com";
+// console.log(user.email);
+// Object.freeze(user)
+//user.email = "setEmail@com"
+
+user.greeting = function(){
+    console.log(`Hello,${this.name}`);
+    
+}
+console.log(user.greeting());
+
