@@ -1,0 +1,46 @@
+=> JavaScript Execution Context
+
+{code files} -> {Global Execution Context } - refers to "This"
+
+--> function Execution Context 
+
+--> Eval Execution Context
+
+{}-> memory creation phase
+  -> Execution phase
+
+1- > Global Execution phase
+            |
+            This
+2- > Memory phase
+     var1-> Undefined
+     var2-> Undefined
+     addNUm()-> Defination
+     result1-> Undefined
+     result2-> Undefined
+
+3- > Execution phase
+      var1 - > 10
+      var2 - > 5
+      addNUm -> New  Execution Context for this only + --> Delete after Execution done.
+      Execution Thread
+            |___ Execution Context { var1-> 10
+            |                        var2-> 5
+                                     total-> 15 
+            |                       }
+            |
+            Memory phase
+             var1 -> Undefined
+             var2 - > Undefined
+             total- > Undefined
+
+-----------+++++++----------------
+
+call Stack
+
+ |      |
+ |      |
+ |_one()|
+ |_GE___|
+
+
